@@ -42,7 +42,6 @@ syntax enable
 " ### Theme ####
 let base16colorspace=256
 set background=dark
-colorscheme base16-monokai
 
 " ### Text, tab and indent related ####
 set expandtab
