@@ -1,3 +1,10 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+set laststatus=2
+set ttimeoutlen=50
+
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
