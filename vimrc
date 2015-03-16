@@ -50,7 +50,3 @@ set softtabstop=2
 
 let g:ctrlp_map = '<c-p>'     " Map ctrl+p to CtrlP 
 let g:ctrlp_cmd = 'CtrlP'
-
-
-" ### Plugins
-
