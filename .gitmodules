@@ -13,3 +13,9 @@
 [submodule "vim/bundle/vim-rspec"]
 	path = vim/bundle/vim-rspec
 	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule "vim/bundle/vimux"]
+	path = vim/bundle/vimux
+	url = git@github.com:benmills/vimux.git
+[submodule "vim/bundle/vim-turbux"]
+	path = vim/bundle/vim-turbux
+	url = git@github.com:jgdavey/vim-turbux.git
