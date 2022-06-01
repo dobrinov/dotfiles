@@ -1,0 +1,12 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[user]
+	email = deyan.dobrinov@gmail.com
+	name = Deyan Dobrinov
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
