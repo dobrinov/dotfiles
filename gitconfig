@@ -1,8 +1,0 @@
-[user]
-	name = Deyan Dobrinov
-	email = deyan.dobrinov@gmail.com
-[alias]
-	st = status
-	co = checkout
-[push]
-	default = matching
