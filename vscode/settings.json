@@ -1,31 +1,23 @@
 {
-  "editor.tabSize": 2,
-  "editor.rulers": [120],
-  "editor.fontSize": 13,
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "zenMode.centerLayout": false,
-  "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
-  "zenMode.fullScreen": false,
-  "workbench.iconTheme": null,
-  "workbench.tree.indent": 16,
-  "workbench.activityBar.visible": false,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#222222"
-  },
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Solarized Light",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.rulers": []
-  },
-  "editor.largeFileOptimizations": false,
-  "tailwindCSS.includeLanguages": {
-    "slim": "html"
+    "editor.tabSize": 2,
+    "editor.rulers": [120],
+    "editor.fontSize": 13,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.fullScreen": false,
+    "workbench.iconTheme": null,
+    "workbench.tree.indent": 16,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#222222"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Solarized Light",
+    "editor.largeFileOptimizations": false,
   }
-}
+  
