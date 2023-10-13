@@ -1,0 +1,8 @@
+function tmux-attach-current() {
+  tmux new-session -A -s $PWD:t
+}
+
+alias ll="ls -lAG"
+alias wip="git add -A && git commit -n -m 'WIP'"
+alias ta="tmux-attach-current"
+alias tat="tmux attach"

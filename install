@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+ln -s ~/dev/personal/dotfiles/zshrc ~/.zshrc
+ln -s ~/dev/personal/dotfiles/zsh ~/.zsh
+ln -s ~/dev/personal/vscode/tmux.conf ~/.tmux.conf
+ln -s ~/dev/personal/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json

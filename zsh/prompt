@@ -1,0 +1,50 @@
+#!/usr/bin/env zsh
+
+prompt_zsh_level () {
+  local base=$SHLVL
+
+  if [[ -v DOTFILES_STARTX_USED ]]; then
+    base=$((base - DOTFILES_STARTX_USED + 1))
+  fi
+
+  if [[ -n $TMUX ]]; then
+    base=$((base - 1))
+  fi
+
+  if (( base > 1 )); then
+    printf '∎'%.0s {2..$base}
+  fi
+}
+
+prompt_current_context () {
+  if [[ -n $c_current[name] ]]; then
+    print " (${c_current[name]})"
+  fi
+}
+
+git_branch () {
+  if [ -d .git ]; then
+    git rev-parse --abbrev-ref HEAD
+  else
+    echo "nogit"
+  fi
+}
+
+PROMPT='%(#.%{$fg_bold[yellow]%}.%{$fg_bold[white]%})%(?..%{$fg_bold[red]%})$(prompt_zsh_level)%(#.∷.→)%{$reset_color%} '
+RPROMPT='%(1j.%{$fg_bold[magenta]%}⦗%j⦘ .)%{$fg_bold[green]%}%c%{$fg_bold[white]%}:%{$fg_bold[blue]%}%{$fg_bold[red]%}$(git_branch)%{$reset_color%}%{$fg_bold[yellow]%}$(prompt_current_context)%{$reset_color%}'
+PROMPT_EOL_MARK="%{${fg_bold[yellow]}%}¶%{$reset_color%}"
+PS2=$'%{\e[38;5;240m%}…%{$reset_color%} '
+
+case "$ITERM_PROFILE" in
+  Beamer)
+    PROMPT='➔ '
+    RPROMPT=''
+    ;;
+  tkn)
+    RPROMPT=''
+    ;;
+esac
+
+if [[ -n $EMACS ]]; then
+  PROMPT='$ '
+fi
