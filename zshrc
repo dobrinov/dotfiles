@@ -9,5 +9,9 @@ export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(rbenv init - zsh)"
 
+# Load zsh-autosuggestions
+autoload -Uz compinit
+compinit
+
 . ~/.zsh/jump
 . ~/.zsh/aliases
