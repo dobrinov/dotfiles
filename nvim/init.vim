@@ -46,8 +46,8 @@ map <C-t> :vsp <bar> :terminal fish<CR>
 map <C-n> :NERDTreeToggle<CR>
 
 " FZF
-map <C-p> :GFiles<CR>
-map <C-f> :Ag<CR>
+map <D-p> :Files<CR>
+map <D-f> :Ag<CR>
 
 " Copy/Paste
 vnoremap <C-c> "*y
