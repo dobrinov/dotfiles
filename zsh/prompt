@@ -24,7 +24,11 @@ prompt_current_context () {
 
 git_branch () {
   if [ -d .git ]; then
-    git rev-parse --abbrev-ref HEAD
+    if [ -z "$(ls -A .git/refs/heads)" ]; then
+      echo "empty"
+    else
+      git rev-parse --abbrev-ref HEAD
+    fi
   else
     echo "nogit"
   fi
