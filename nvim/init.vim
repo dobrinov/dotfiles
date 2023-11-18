@@ -15,7 +15,6 @@ Plug 'shaunsingh/solarized.nvim'
 call plug#end()
 
 set shell=/bin/zsh
-
 set clipboard=unnamed
 set mouse=a
 set laststatus=2
