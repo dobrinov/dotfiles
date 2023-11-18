@@ -29,6 +29,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set lazyredraw
+set number
 
 " Text, tab indent
 set expandtab
