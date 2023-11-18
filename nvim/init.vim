@@ -16,6 +16,7 @@ call plug#end()
 
 set shell=/bin/zsh
 
+set clipboard=unnamed
 set mouse=a
 set laststatus=2
 set ttimeoutlen=50
@@ -50,9 +51,10 @@ map <D-p> :Files<CR>
 map <D-f> :Ag<CR>
 
 " Copy/Paste
-vnoremap <C-c> "*y
-vnoremap  C-v  "*p
-vnoremap <C-x> "*x
+vmap <D-c> "+yi
+vmap <D-x> "+c
+vmap <D-v> c<ESC>"+p
+imap <D-v> <ESC>"+pa
 
 " vim-test configuration
 let test#strategy = "neovim"
