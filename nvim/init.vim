@@ -58,10 +58,10 @@ imap <D-v> <ESC>"+pa
 
 " vim-test configuration
 let test#strategy = "neovim"
-
+let test#enabled_runners = ["ruby#rspec", "ruby#rails"]
 tmap <C-o> <C-\><C-n>
-map <silent> <leader>s :TestNearest<CR>
-map <silent> <leader>t :TestFile<CR>
-map <silent> <leader>a :TestSuite<CR>
-map <silent> <leader>l :TestLast<CR>
-map <silent> <leader>g :TestVisit<CR>
+nmap <silent> <leader>s :TestNearest<CR>
+nmap <silent> <leader>t :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
