@@ -7,7 +7,7 @@
 	email = deyan.dobrinov@gmail.com
 	name = Deyan Dobrinov
 [core]
-	editor = vim
+	editor = nvim
 [init]
 	defaultBranch = main
 [push]
