@@ -1,25 +1,24 @@
 {
-    "editor.tabSize": 2,
-    "editor.rulers": [120],
-    "editor.fontSize": 15,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "zenMode.centerLayout": false,
-    "zenMode.hideLineNumbers": false,
-    "zenMode.hideStatusBar": false,
-    "zenMode.fullScreen": false,
-    "workbench.iconTheme": null,
-    "workbench.tree.indent": 16,
-    "workbench.activityBar.visible": false,
-    "workbench.colorCustomizations": {
-      "statusBar.background": "#222222"
-    },
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Solarized Light",
-    "editor.largeFileOptimizations": false
-  }
-
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.fontSize": 15,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.fullScreen": false,
+  "workbench.iconTheme": null,
+  "workbench.tree.indent": 16,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#222222"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Solarized Light",
+  "editor.largeFileOptimizations": false,
+  "workbench.activityBar.location": "hidden"
+}
