@@ -1,14 +1,31 @@
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+
 [user]
-	email = deyan.dobrinov@gmail.com
-	name = Deyan Dobrinov
+  email = deyan.dobrinov@gmail.com
+  name = Deyan Dobrinov
+
 [core]
-	editor = nvim
+  editor = nvim
+  pager = delta
+
 [init]
-	defaultBranch = main
+  defaultBranch = main
+
 [push]
-	autoSetupRemote = true
+  autoSetupRemote = true
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+
+[merge]
+  conflictstyle = diff3
+
+[diff]
+  colorMoved = default
