@@ -20,5 +20,8 @@
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Solarized Light",
   "editor.largeFileOptimizations": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "window.zoomLevel": 1,
+  "git.openRepositoryInParentFolders": "never",
+  "extensions.ignoreRecommendations": true
 }

@@ -51,10 +51,10 @@ map <D-p> :Files<CR>
 map <D-f> :Ag<CR>
 
 " Copy/Paste
-vmap <D-c> "+yi
+vmap <D-c> "+y
 vmap <D-x> "+c
 vmap <D-v> c<ESC>"+p
-imap <D-v> <ESC>"+pa
+imap <D-v> <ESC>"+p
 
 " vim-test configuration
 let test#strategy = "neovim"
@@ -65,3 +65,8 @@ nmap <silent> <leader>t :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+
+" Tabs
+map <D-t> :tabnew<CR>
+map <D-[> :tabprevious<CR>
+map <D-]> :tabnext<CR>
